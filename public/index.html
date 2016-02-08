@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Analytics Backbone App</title>
+	 <style type="text/css">
+	 	svg {
+			width: 100%;
+		}
+	 	#main {
+			display: flex;
+			flex-direction: column;
+		}
+		#chart_title {
+			border: 1px solid black;
+			padding: 5px 0;
+			text-align: center;
+		}
+		#chart {
+			flex: 1 1 auto;
+			order: 1;
+			height: 300px;
+			width: 100%;
+			border: 1px solid black;
+			margin: 5px 0;
+		}
+		#aggregate {
+			flex: 1 1 auto;
+			order: 2;
+			display: flex;
+			flex-direction: row;
+		}
+		#aggregate .button {
+			flex: 1 1 33%;
+			text-align: center;
+			border: 1px solid black;
+			cursor: pointer;
+		}
+		#aggregate .selected_button {
+			flex: 1 1 33%;
+			text-align: center;
+			border: 1px solid black;
+			cursor: pointer;
+			background-color: red;
+		}
+		#list {
+			flex: 1 1 auto;
+			order: 3;
+			overflow-y: scroll;
+			height: 200px;
+			border: 1px solid black;
+			margin: 5px 0px;
+		}
+		#list .list_item {
+			border-bottom: 1px solid black;
+			cursor: pointer;
+		}
+		#list .selected_list_item {
+			border-bottom: 1px solid black;
+			cursor: pointer;
+			background-color: red;
+		}
+	 </style>
+</head>
+<body>
+</body>
+<script src="/js/main.js"></script>
+</html>

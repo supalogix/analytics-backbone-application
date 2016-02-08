@@ -1,0 +1,23 @@
+{
+  "name": "backbone-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "analytics-facade": "file:../analytics-facade",
+    "backbone": "^1.2.3",
+    "service": "file:../service",
+    "window-dom-facade": "file:../window-dom-facade"
+  }
+}
